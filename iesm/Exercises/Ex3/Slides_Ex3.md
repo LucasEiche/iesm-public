@@ -1,15 +1,15 @@
 ---
 title: Exercise Session 3
-subtitle: IESM Fall 2024-2025 
-date: October 01, 2024  
-author: "Yuri, Salomé, Sophia, Andrea, Qihao, Junwu" 
+subtitle: IESM Fall 2025-2026 
+date: September 30, 2025  
+author: "Salomé, Qihao, Thibault, Evan" 
 output: beamer_presentation
 ---
 
 # Reports Feedback
 Interviews:
 
-* All of you should have received a detailed feedback on Moodle for reports of Ex1
+* You should have received a detailed feedback on Moodle for reports of Ex1
 * If everything is correct, simple checkmarks are added
 * Comments added when something is wrong/unclear/uncomplete
 * Overall comment added to the report
