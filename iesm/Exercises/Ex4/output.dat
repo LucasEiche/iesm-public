@@ -1,16 +1,22 @@
 
-Scratch directory: /tmp/
+Scratch directory: C:\Users\eiche\AppData\Local\Temp/
+   => Libint2 <=
 
-*** tstart() called on noto.epfl.ch
-*** at Tue Sep  7 09:19:37 2021
+    Primary   basis highest AM E, G, H:  6, 6, -
+    Auxiliary basis highest AM E, G, H:  7, 7, -
+    Onebody   basis highest AM E, G, H:  -, -, -
+    Solid Harmonics ordering:            Gaussian
+
+*** tstart() called on HP_de_Lucas
+*** at Mon Nov  3 13:14:21 2025
 
    => Loading Basis Set <=
 
     Name: STO-3G
     Role: ORBITAL
     Keyword: BASIS
-    atoms 1   entry O          line    81 file /opt/psi4conda/psi4conda-1.4rc3/share/psi4/basis/sto-3g.gbs 
-    atoms 2-3 entry H          line    19 file /opt/psi4conda/psi4conda-1.4rc3/share/psi4/basis/sto-3g.gbs 
+    atoms 1   entry O          line    81 file C:\Users\eiche\anaconda3\envs\IESM\Library\share\psi4\basis\sto-3g.gbs 
+    atoms 2-3 entry H          line    19 file C:\Users\eiche\anaconda3\envs\IESM\Library\share\psi4\basis\sto-3g.gbs 
 
 
          ---------------------------------------------------------
@@ -115,14 +121,13 @@ Scratch directory: /tmp/
 
                         Total Energy        Delta E     RMS |[F,P]|
 
-   @RHF iter SAD:   -73.91840937239938   -7.39184e+01   0.00000e+00 
-   @RHF iter   1:   -74.87336465594265   -9.54955e-01   3.97455e-02 DIIS
-   @RHF iter   2:   -74.93987676125187   -6.65121e-02   8.33002e-03 DIIS
-   @RHF iter   3:   -74.94198779297386   -2.11103e-03   1.41873e-03 DIIS
-   @RHF iter   4:   -74.94207838071324   -9.05877e-05   1.30976e-04 DIIS
-   @RHF iter   5:   -74.94207981227558   -1.43156e-06   3.00931e-05 DIIS
-   @RHF iter   6:   -74.94207989866889   -8.63933e-08   3.83470e-07 DIIS
-   @RHF iter   7:   -74.94207989868090   -1.20082e-11   1.48346e-09 DIIS
+   @RHF iter SAD:   -73.98586242829539   -7.39859e+01   0.00000e+00 
+   @RHF iter   1:   -74.90105725801638   -9.15195e-01   3.55740e-02 ADIIS/DIIS
+   @RHF iter   2:   -74.94034287992142   -3.92856e-02   6.10791e-03 ADIIS/DIIS
+   @RHF iter   3:   -74.94199365191140   -1.65077e-03   1.56299e-03 ADIIS/DIIS
+   @RHF iter   4:   -74.94207982050692   -8.61686e-05   4.43827e-05 DIIS
+   @RHF iter   5:   -74.94207989139832   -7.08914e-08   8.71575e-06 DIIS
+   @RHF iter   6:   -74.94207989867567   -7.27735e-09   3.74812e-07 DIIS
   Energy and wave function converged.
 
 
@@ -143,15 +148,17 @@ Scratch directory: /tmp/
     Final Occupation by Irrep:
               A 
     DOCC [     5 ]
+    NA   [     5 ]
+    NB   [     5 ]
 
-  @RHF Final Energy:   -74.94207989868090
+  @RHF Final Energy:   -74.94207989867567
 
    => Energetics <=
 
     Nuclear Repulsion Energy =              8.0023664821734215
-    One-Electron Energy =                -120.1995577944194622
-    Two-Electron Energy =                  37.2551114135651318
-    Total Energy =                        -74.9420798986809160
+    One-Electron Energy =                -120.1995440665617849
+    Two-Electron Energy =                  37.2550976857126841
+    Total Energy =                        -74.9420798986756722
 
 Computation Completed
 
@@ -160,49 +167,57 @@ Properties will be evaluated at   0.000000,   0.000000,   0.000000 [a0]
 
 Properties computed using the SCF density matrix
 
-  Nuclear Dipole Moment: [e a0]
-     X:     0.0000      Y:     0.0000      Z:     1.1273
 
-  Electronic Dipole Moment: [e a0]
-     X:     0.0000      Y:     0.0000      Z:    -0.5238
+ Multipole Moments:
 
-  Dipole Moment: [e a0]
-     X:     0.0000      Y:     0.0000      Z:     0.6035     Total:     0.6035
+ ------------------------------------------------------------------------------------
+     Multipole            Electronic (a.u.)      Nuclear  (a.u.)        Total (a.u.)
+ ------------------------------------------------------------------------------------
 
-  Dipole Moment: [D]
-     X:     0.0000      Y:     0.0000      Z:     1.5340     Total:     1.5340
+ L = 1.  Multiply by 2.5417464519 to convert [e a0] to [Debye]
+ Dipole X            :         -0.0000000            0.0000000           -0.0000000
+ Dipole Y            :         -0.0000000            0.0000000           -0.0000000
+ Dipole Z            :         -0.5237699            1.1272912            0.6035213
+ Magnitude           :                                                    0.6035213
 
+ ------------------------------------------------------------------------------------
 
-*** tstop() called on noto.epfl.ch at Tue Sep  7 09:19:38 2021
+*** tstop() called on HP_de_Lucas at Mon Nov  3 13:14:21 2025
 Module time:
-	user time   =       0.25 seconds =       0.00 minutes
-	system time =       0.02 seconds =       0.00 minutes
-	total time  =          1 seconds =       0.02 minutes
+	user time   =        nan seconds =        nan minutes
+	system time =        nan seconds =        nan minutes
+	total time  =          0 seconds =       0.00 minutes
 Total time:
-	user time   =       0.25 seconds =       0.00 minutes
-	system time =       0.02 seconds =       0.00 minutes
-	total time  =          1 seconds =       0.02 minutes
+	user time   =        nan seconds =        nan minutes
+	system time =        nan seconds =        nan minutes
+	total time  =     173969 seconds =    2899.48 minutes
    => Loading Basis Set <=
 
     Name: STO-3G
     Role: ORBITAL
     Keyword: BASIS
-    atoms 1   entry O          line    81 file /opt/psi4conda/psi4conda-1.4rc3/share/psi4/basis/sto-3g.gbs 
-    atoms 2-3 entry H          line    19 file /opt/psi4conda/psi4conda-1.4rc3/share/psi4/basis/sto-3g.gbs 
+    atoms 1   entry O          line    81 file C:\Users\eiche\anaconda3\envs\IESM\Library\share\psi4\basis\sto-3g.gbs 
+    atoms 2-3 entry H          line    19 file C:\Users\eiche\anaconda3\envs\IESM\Library\share\psi4\basis\sto-3g.gbs 
 
 
-Scratch directory: /tmp/
+Scratch directory: C:\Users\eiche\AppData\Local\Temp/
+   => Libint2 <=
 
-*** tstart() called on noto.epfl.ch
-*** at Tue Sep  7 09:22:28 2021
+    Primary   basis highest AM E, G, H:  6, 6, -
+    Auxiliary basis highest AM E, G, H:  7, 7, -
+    Onebody   basis highest AM E, G, H:  -, -, -
+    Solid Harmonics ordering:            Gaussian
+
+*** tstart() called on HP_de_Lucas
+*** at Mon Nov  3 13:14:22 2025
 
    => Loading Basis Set <=
 
     Name: STO-3G
     Role: ORBITAL
     Keyword: BASIS
-    atoms 1   entry O          line    81 file /opt/psi4conda/psi4conda-1.4rc3/share/psi4/basis/sto-3g.gbs 
-    atoms 2-3 entry H          line    19 file /opt/psi4conda/psi4conda-1.4rc3/share/psi4/basis/sto-3g.gbs 
+    atoms 1   entry O          line    81 file C:\Users\eiche\anaconda3\envs\IESM\Library\share\psi4\basis\sto-3g.gbs 
+    atoms 2-3 entry H          line    19 file C:\Users\eiche\anaconda3\envs\IESM\Library\share\psi4\basis\sto-3g.gbs 
 
 
          ---------------------------------------------------------
@@ -307,14 +322,13 @@ Scratch directory: /tmp/
 
                         Total Energy        Delta E     RMS |[F,P]|
 
-   @RHF iter SAD:   -73.91840937239938   -7.39184e+01   0.00000e+00 
-   @RHF iter   1:   -74.87336465594265   -9.54955e-01   3.97455e-02 DIIS
-   @RHF iter   2:   -74.93987676125187   -6.65121e-02   8.33002e-03 DIIS
-   @RHF iter   3:   -74.94198779297385   -2.11103e-03   1.41873e-03 DIIS
-   @RHF iter   4:   -74.94207838071331   -9.05877e-05   1.30976e-04 DIIS
-   @RHF iter   5:   -74.94207981227562   -1.43156e-06   3.00931e-05 DIIS
-   @RHF iter   6:   -74.94207989866891   -8.63933e-08   3.83470e-07 DIIS
-   @RHF iter   7:   -74.94207989868093   -1.20224e-11   1.48346e-09 DIIS
+   @RHF iter SAD:   -73.98586242829539   -7.39859e+01   0.00000e+00 
+   @RHF iter   1:   -74.90105725801638   -9.15195e-01   3.55740e-02 ADIIS/DIIS
+   @RHF iter   2:   -74.94034287992142   -3.92856e-02   6.10791e-03 ADIIS/DIIS
+   @RHF iter   3:   -74.94199365191140   -1.65077e-03   1.56299e-03 ADIIS/DIIS
+   @RHF iter   4:   -74.94207982050692   -8.61686e-05   4.43827e-05 DIIS
+   @RHF iter   5:   -74.94207989139832   -7.08914e-08   8.71575e-06 DIIS
+   @RHF iter   6:   -74.94207989867567   -7.27735e-09   3.74812e-07 DIIS
   Energy and wave function converged.
 
 
@@ -335,15 +349,17 @@ Scratch directory: /tmp/
     Final Occupation by Irrep:
               A 
     DOCC [     5 ]
+    NA   [     5 ]
+    NB   [     5 ]
 
-  @RHF Final Energy:   -74.94207989868093
+  @RHF Final Energy:   -74.94207989867567
 
    => Energetics <=
 
     Nuclear Repulsion Energy =              8.0023664821734215
-    One-Electron Energy =                -120.1995577944194764
-    Two-Electron Energy =                  37.2551114135651034
-    Total Energy =                        -74.9420798986809444
+    One-Electron Energy =                -120.1995440665617849
+    Two-Electron Energy =                  37.2550976857126841
+    Total Energy =                        -74.9420798986756722
 
 Computation Completed
 
@@ -352,25 +368,27 @@ Properties will be evaluated at   0.000000,   0.000000,   0.000000 [a0]
 
 Properties computed using the SCF density matrix
 
-  Nuclear Dipole Moment: [e a0]
-     X:     0.0000      Y:     0.0000      Z:     1.1273
 
-  Electronic Dipole Moment: [e a0]
-     X:     0.0000      Y:     0.0000      Z:    -0.5238
+ Multipole Moments:
 
-  Dipole Moment: [e a0]
-     X:     0.0000      Y:     0.0000      Z:     0.6035     Total:     0.6035
+ ------------------------------------------------------------------------------------
+     Multipole            Electronic (a.u.)      Nuclear  (a.u.)        Total (a.u.)
+ ------------------------------------------------------------------------------------
 
-  Dipole Moment: [D]
-     X:     0.0000      Y:     0.0000      Z:     1.5340     Total:     1.5340
+ L = 1.  Multiply by 2.5417464519 to convert [e a0] to [Debye]
+ Dipole X            :         -0.0000000            0.0000000           -0.0000000
+ Dipole Y            :         -0.0000000            0.0000000           -0.0000000
+ Dipole Z            :         -0.5237699            1.1272912            0.6035213
+ Magnitude           :                                                    0.6035213
 
+ ------------------------------------------------------------------------------------
 
-*** tstop() called on noto.epfl.ch at Tue Sep  7 09:22:30 2021
+*** tstop() called on HP_de_Lucas at Mon Nov  3 13:14:22 2025
 Module time:
-	user time   =       0.24 seconds =       0.00 minutes
-	system time =       0.02 seconds =       0.00 minutes
-	total time  =          2 seconds =       0.03 minutes
+	user time   =        nan seconds =        nan minutes
+	system time =        nan seconds =        nan minutes
+	total time  =          0 seconds =       0.00 minutes
 Total time:
-	user time   =       1.08 seconds =       0.02 minutes
-	system time =       0.22 seconds =       0.00 minutes
-	total time  =        173 seconds =       2.88 minutes
+	user time   =        nan seconds =        nan minutes
+	system time =        nan seconds =        nan minutes
+	total time  =     173970 seconds =    2899.50 minutes
